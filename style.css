@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.cabecalho{
+    color: white;
+    background-color: rgb(9, 136, 22);
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h3{
+    color: rgb(206, 206, 8);
+}
+
+/* Sobrescreve a cor de fundo do bg-primary para verde */
+.bg-primary {
+  background-color: #28a745 !important; /* verde Bootstrap (ou escolha outro tom) */
+}
+
+/* Opcional: Ajusta a cor do texto da navbar */
+.navbar .nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #d4fcd4 !important; /* tom de verde mais claro no hover */
+}
+
+footer a:hover {
+  color: #d4fcd4 !important; /* tom de verde claro ao passar o mouse */
+}
